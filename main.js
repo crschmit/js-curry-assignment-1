@@ -1,3 +1,14 @@
+/**
+ * @Author: Christian Schmitt
+ * @Date:   2017-06-11T08:38:18-05:00
+ * @Email:  crschmit@gmail.com
+ * @Filename: main.js
+ * @Last modified by:   Christian Schmitt
+ * @Last modified time: 2017-06-18T22:14:39-05:00
+ */
+
+
+
 'use strict'
 
 const {
@@ -59,6 +70,12 @@ const carts = [
     'mountain dew'
   )
 ]
+
+module.exports = {
+  regularListings,
+  saleListings,
+  carts
+}
 
 const regularTotals = calculateTotals(regularListings)
 const saleTotals = calculateTotals(saleListings)
